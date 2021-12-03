@@ -1,0 +1,57 @@
+h2{ 
+    text-align: center;
+    padding-top: 30px;
+    font-family:'Libre Baskerville', serif;
+    text-shadow: 2px 2px grey;
+}
+.first{ 
+    background-color: #17252A; 
+    height:200px; width:auto;
+}
+.container-fluid{
+    background-image:url('indra.jpeg');
+    background-repeat: no-repeat;
+    background-color: #17252A;
+    display: flex;
+    justify-content: space-evenly; 
+    height:600px; 
+    align-items:center;
+    flex-wrap: wrap;
+    background-size: 100% 100%;
+}
+.small{
+    background-color: #17252A;
+    display: flex;
+    height:300px; 
+    flex-wrap: wrap;
+    border:5px solid grey;
+    display: block;
+    padding-bottom: 100px;
+    width: 900px;
+    overflow: auto;
+}
+p {
+    margin: 20px;
+    font-size: 20px; 
+  }
+
+
+.container{
+    background-color: #17252A;
+    display: flex;
+    justify-content: space-evenly; 
+    height:600px; 
+    align-items:center;
+    flex-wrap: wrap;
+}
+.one,.two,.three{
+    width: 400px;
+    height:600px;
+    background-color:black;
+    border:5px solid grey;
+}
+.three{ 
+    background-image:url('indranooyi.jpeg') ;
+    background-repeat: no-repeat;
+    background-position:bottom; 
+}
